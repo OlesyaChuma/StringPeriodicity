@@ -90,7 +90,7 @@ main.cpp
 Настроить вывод UTF-8 в консоль (опционально):
 
 cpp
-Копировать код
+
 setlocale(LC_ALL, "Russian");
 SetConsoleOutputCP(65001);
 SetConsoleCP(65001);
