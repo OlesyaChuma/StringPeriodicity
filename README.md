@@ -75,8 +75,8 @@ else
 {
     std::cout << "Строка НЕ периодична" << std::endl;
 }
-
-Запуск в Visual Studio
+```
+## Запуск в Visual Studio
 Открыть проект или создать новый консольный проект.
 
 Добавить файлы:
@@ -87,23 +87,16 @@ StringPeriodicity.cpp
 
 main.cpp
 
-Настроить вывод UTF-8 в консоль (опционально):
-
-cpp
-
-setlocale(LC_ALL, "Russian");
-SetConsoleOutputCP(65001);
-SetConsoleCP(65001);
 Нажать Ctrl + F5 для запуска.
 
-Требования
+## Требования
 Visual Studio 2019 / 2022
 
 Поддержка C++17 и выше
 
 Windows (для настройки кодировки консоли)
 
-✔ Пример вывода программы
+## Пример вывода программы
 makefile
 Копировать код
 Строка: abcabcabcabc, k = 3 - да
